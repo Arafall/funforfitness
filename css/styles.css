@@ -1,0 +1,80 @@
+
+body {
+    background-color: rgb(210, 255, 255);
+}
+
+img {
+    border-radius: 7px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 6px gray;
+}
+
+#container {
+    text-align: center;
+    margin: 30px auto 30px auto;
+    padding: 25px;
+    width: 70%;
+    box-shadow: 4px 4px 8px gray;
+    background-color: floralwhite;
+}
+
+
+/* header styles */
+.logo {
+    border: 1px solid black;
+    box-shadow: 0 0 0;
+}
+
+
+/* nav bar styles */
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.menu li a:hover {
+    color:cornflowerblue;
+}
+
+
+/* about us home page styles */
+.description {
+    padding: 25px;
+    text-align: left;
+}
+
+.description p {
+    max-width: 45%;
+}
+
+.description img {
+    float: right;
+}
+
+/* image cards styles */
+.imagecards {
+    padding: 0px;
+    margin: 10px 0;
+}
+
+.imagecards img {
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* footer styles */
+footer {
+    margin: 50px 50px 0 50px;
+    text-align: left;
+}
